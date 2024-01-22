@@ -7,7 +7,7 @@
 
   /*========== Colors ==========*/
   /* Change favorite color */
-  --hue-color: 190; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+  --hue-color: 210; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
   /* HSL color mode */
   --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -204,7 +204,7 @@ img {
 }
 
 .nav__toggle {
-  font-size: 1.1rem;
+  font-size: 2.1rem;
   cursor: pointer;
 }
 
@@ -234,7 +234,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: var(--small-font-size);
+  font-size: var(--medium-font-size);
   color: var(--title-color);
   font-weight: var(--font-medium);
 }
@@ -294,7 +294,7 @@ img {
 }
 
 .home__social-icon {
-  font-size: 1.25rem;
+  font-size: 2.0rem;
   color: var(--first-color);
 }
 
@@ -962,8 +962,12 @@ img {
 }
 
 .footer__social {
-  font-size: 1.25rem;
-  margin-right: var(--mb-1-5);
+  font-size: 2.0rem;
+  /* text-align: center; */
+  vertical-align: middle;
+  display:inline-block;
+  margin-left: var(--mb-1-5);
+  row-gap: 100.5rem;
 }
 
 .footer__social:hover {
@@ -975,6 +979,7 @@ img {
   text-align: center;
   color: var(--text-color-light);
   margin-top: var(--mb-3);
+  justify-content: center;
 }
 
 .footer__title,
@@ -1064,7 +1069,7 @@ img {
   }
 
   .home__button {
-    font-size: 20px;
+    font-size: 40px;
   }
 
   .skills__title {
