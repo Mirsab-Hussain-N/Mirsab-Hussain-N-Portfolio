@@ -317,6 +317,7 @@ img {
 
 .home__title {
   font-size: var(--big-font-size);
+  
 }
 
 .home__subtitle {
@@ -450,6 +451,20 @@ img {
 
 /*==================== SKILLS ====================*/
 
+.skills__data .skills__titles .my-link {
+  text-decoration: none;
+  color: white; /* Default color of the link */
+}
+
+.skills__data .skills__titles .my-link:hover {
+  color: yellow; /* Change to the desired hover color */
+}
+
+.skills__data .skills__titles .my-link:visited {
+  color: white; /* Ensure visited link stays black */
+}
+
+
 .skills__container {
   row-gap: 0;
 }
@@ -516,23 +531,29 @@ img {
   background-color: var(--first-color);
 }
 
-.skills__html {
+.skills__leetcode {
   width: 80%;
 }
 
-.skills__css {
-  width: 80%;
-}
-
-.skills__js {
-  width: 60%;
-}
-
-.skills__wordpress {
+.skills__hackerrank {
   width: 70%;
 }
 
-.skills__python {
+.skills__cdnj {
+  width: 30%;
+}
+
+.skills__hackerearth {
+  width: 50%;
+}
+.skills__codechef {
+  width: 90%;
+}
+.skills__geeksforgeeks {
+  width: 40%;
+}
+
+.skills__java {
   width: 85%;
 }
 
@@ -541,23 +562,23 @@ img {
 }
 
 .skills__sql {
+  width: 75%;
+}
+
+.skills__python {
   width: 60%;
 }
 
-.skills__google {
-  width: 70%;
+.skills__html {
+  width: 65%;
 }
 
-.skills__bank {
-  width: 80%;
+.skills__css {
+  width: 55%;
 }
 
-.skills__google {
-  width: 70%;
-}
-
-.skills__counter {
-  width: 80%;
+.skills__js {
+  width: 40%;
 }
 
 .skills__office {
